@@ -1,0 +1,361 @@
+body {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background: url('../img/starfield-banner.jpg ');
+  position: fixed;
+  height: auto;
+  top: 0px;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header ul {
+  list-type: none;
+  overflow: hidden;
+  float: right;
+  right: 350px;
+  margin-right: 300px;
+  padding: 6px;
+}
+
+.header ul li {
+  float: left;
+  overflow: hidden;
+}
+
+.header a {
+  color: #FFFFFF;
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav a:hover {
+  background-color: #15418c;
+}
+
+.sub_nav {
+  background-color: #555555;
+}
+
+.sub_nav a:hover {
+  background-color: #888888;
+}
+
+.nav li {
+  border-right: 1px solid #555555;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+.sub_nav li {
+  border-right: 1px solid #888888;
+  font-size: 13px;
+}
+
+.sub_nav li:last-child {
+  border-right: none;
+}
+
+.search_container {
+  float: right;
+  margin-right: 15px;
+  margin-top: -130px;
+}
+
+.search {
+  outline: none;
+  padding: 10px 20px;
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: #FFFFFF;
+}
+
+.search_inner {
+  display: inline-block;
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.search_inner:hover {
+  border: 1px solid #4679cb;
+}
+
+.btn {
+  padding: 10px 0px;
+  height: 35px;
+  width: 35px;
+  background: url(../img/search.svg);
+  border: 1px solid #333333;
+  outline: none;
+  cursor: pointer;
+}
+
+.share {
+  display: inline-block;
+  padding: 10px 0px;
+  height: 35px;
+  width: 35px;
+  background: url(../img/share.svg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.main {
+  margin-top: 150px;
+}
+
+.two_column, .three_column, .four_column, .footer {
+  position: relative;
+  height: auto;
+}
+
+.left_news, .center_news, .right_news {
+  position: absolute;
+  margin: 0px;
+}
+
+.main img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dawn {
+  width: 600px;
+  height: 600px;
+  top: 10px;
+  left: 10px;
+}
+
+.mollweide {
+  top: 10px;
+  left: 620px;
+  width: 295px;
+  height: 295px;
+  position: absolute;
+}
+
+.liftoff {
+  position: absolute;
+  top: 315px;
+  left: 620px;
+  width: 600px;
+  height: 295px;
+}
+
+.right_top_right {
+  position: absolute;
+  width: 295px;
+  top: 10px;
+  left: 925px;
+  background-color: #46719B;
+  line-height: 20px;
+  height: 295px;
+}
+
+.right_top_right a {
+  text-decoration: none;
+  color: #E9F4FB;
+}
+
+.right_top_right a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+. .top_right_title {
+  font-size: 20px;
+  border-bottom: 1px solid #E9F4FB;
+  width: 100%;
+}
+
+.right_content a {
+  font-size: 13px;
+  display: block;
+  margin: 10px;
+}
+
+.top_title {
+  width: 100%;
+  border-top: 1px solid #E9F4FB;
+  height: 20px;
+  margin-top: 120px;
+}
+
+.right_title, .left_title {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 12px;
+}
+
+.container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  padding: 5px;
+  font-size: 16px;
+  background: #4F6C9D;
+  color: #FFFFFF;
+  text-decoration: none;
+  bottom: 30px;
+}
+
+.content {
+  position: absolute;
+  padding: 5px 0px 5px 5px;
+  font-size: 14px;
+  background: #cdcdcd;
+  color: #000000;
+  line-height: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 98.5%;
+  bottom: 0px;
+  height: 20px;
+}
+
+.title:hover {
+  background-color: ##5D7FB9;
+}
+
+.content:hover {
+  background-color: #FFFFFF;
+}
+
+.day {
+  top: 635px;
+  left: 10px;
+  width: 297px;
+  height: 297px;
+}
+
+.asteriods {
+  top: 635px;
+  left: 318px;
+  width: 595px;
+  height: 297px;
+}
+
+.video {
+  top: 635px;
+  left: 922px;
+  width: 297px;
+  height: 297px;
+  position: absolute;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: fill;
+}
+
+.nasa {
+  top: 942px;
+  left: 10px;
+  width: 295px;
+  height: 295px;
+}
+
+.io {
+  top: 942px;
+  left: 315px;
+  width: 295px;
+  height: 295px;
+}
+
+.cassini {
+  top: 942px;
+  left: 620px;
+  width: 295px;
+  height: 295px;
+}
+
+.fermiicecube {
+  top: 942px;
+  left: 925px;
+  width: 295px;
+  height: 295px;
+}
+
+.footer {
+  top: 1267px;
+}
+
+.more_stories {
+  position: absolute;
+  background-color: #1D4288;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  line-height: 40px;
+}
+
+.more_stories:hover {
+  background-color: #5D7FB9;
+}
+
+.about_nasa {
+  background-color: #000000;
+  position: absolute;
+  color: #FFFFFF;
+  top: 40px
+}
+
+.about_nasa .logo {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.about_nasa p {
+  font-size: 12px;
+  padding: 2px;
+  word-spacing: 1px;
+}
+
+.footer_nav {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.footer_nav li {
+  float: right;
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.footer_nav a {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #5D7FB9;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer_nav a:hover {
+  text-decoration: underline;
+}
